@@ -370,15 +370,16 @@ body {
 }
 
 .s6__container {
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
     gap: 20px;
 }
 
 .s6__card {
-    display: flex;
-    flex-basis: 35%;
-    flex-grow: 1;
+    flex: 0 0 25%;
+    scroll-snap-align: start;
     border: solid black 1px;
     border-radius: 8px;
     padding: 20px;
@@ -387,13 +388,13 @@ body {
 
 .s6__desc {
     margin: 5px;
-    padding: 10px;
+    text-align: center;
 }
 
 .s6__rome {
     margin-bottom: 10px;
 }
-
+/*  */
 .s6__button {
     padding: 5px;
     border-radius: 20px;
@@ -402,11 +403,11 @@ body {
     background-color: transparent;
     margin-bottom: 20px;
     cursor: pointer;
-}
+ } 
+ /* deleted */
 
 .s6__city__image {
-    width: 250px;
-    height: 300px;
+    width: 100%;
     border-radius: 8px;
 }
 
@@ -624,20 +625,19 @@ h1 {
 
     /* s5 */
     .s5__tour__bigcard {
-        flex-basis: 38%;
-        height: 250px;
+        flex-basis: 40%;
+        height: 230px;
     }
-    /* changes 10.21 */
+    /* changes 10.51 */
 
     /* s6 */
     .s6__card {
-        flex-basis: 35%;
+        flex-basis: 40%;
     }
     /* after 10.11 _50-35*/
 
     .s6__city__image {
-        width: 200px;
-        height: 250px;
+        width: 100%;
     }
 
     .s6__button {

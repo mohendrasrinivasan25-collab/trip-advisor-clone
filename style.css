@@ -585,13 +585,13 @@ h1 {
 
 /* media queries start */
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:800px) {
     body {
         font-size: 12px;
     }
 }
 
-@media screen and (max-width:600px) and (max-width:800px) {
+@media screen and (max-width:480px){
     .section-one {
         display: block;
     }

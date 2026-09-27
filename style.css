@@ -591,13 +591,14 @@ h1 {
     }
 }
 
-@media screen and (max-width:480px){
-    .section-one {
+@media screen and (max-width:600px){
+
+    .special__1{
         display: block;
     }
 
     .section-one__navbar__chat,
-    .bit__image {
+    .bit__image,.s1__button,.bit__image,.s1__signin{
         display: none;
     }
 
@@ -622,14 +623,15 @@ h1 {
 
     /* s5 */
     .s5__tour__bigcard {
-        flex-basis: 45%;
+        flex-basis: 38%;
         height: 250px;
     }
 
     /* s6 */
     .s6__card {
-        flex-basis: 50%;
+        flex-basis: 35%;
     }
+    /* after 10.11 _50-35*/
 
     .s6__city__image {
         width: 200px;

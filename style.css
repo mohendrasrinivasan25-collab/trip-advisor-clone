@@ -587,7 +587,7 @@ h1 {
 
 @media screen and (max-width:800px) {
     body {
-        font-size: 12px;
+        font-size: 10px;
     }
 }
 
@@ -601,6 +601,7 @@ h1 {
     .bit__image,.s1__button,.bit__image,.s1__signin{
         display: none;
     }
+    /* change 10.21 */
 
     /* s2 */
     .section-two__p2 {
@@ -626,6 +627,7 @@ h1 {
         flex-basis: 38%;
         height: 250px;
     }
+    /* changes 10.21 */
 
     /* s6 */
     .s6__card {
